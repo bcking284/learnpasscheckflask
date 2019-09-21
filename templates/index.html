@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <form action={{ url_for("report") }}>
+    <label for="password">Password:</label>
+    <input type="text" name="password">
+  </form>
+{% endblock %}
